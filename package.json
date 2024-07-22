@@ -1,0 +1,31 @@
+{
+  "name": "projeto_01_prweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "nodemon": "^3.1.4"
+  },
+  "scripts": {
+    "start": "nodemon ./dist/app.js ./dist/database/mysql.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcuslaraa/API_REST_BIBLIOTECA-FACULDADE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcuslaraa/API_REST_BIBLIOTECA-FACULDADE/issues"
+  },
+  "homepage": "https://github.com/marcuslaraa/API_REST_BIBLIOTECA-FACULDADE#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql2": "^3.10.2",
+    "typescript": "5.4.5"
+  }
+}
